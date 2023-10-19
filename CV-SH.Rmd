@@ -29,7 +29,7 @@ cites<-scholar::get_publications("E_zs3XIAAAAJ")[c("cites","pubid", "title")]
 | 2022 -- 2024    | **University of Vienna**, assistant professor (non-tenured) |
 | 2020 -- 2022    | **Goethe University**, postdoc, Chair of Development Economics, M Schündeln |
 | 2018            | **Stanford University**, visiting researcher at SIEPR, invited by M Fafchamps |
-| 2014 -- 2019    | **Goethe University**, part-time employed within at the Chair of Development Economics |
+| 2014 -- 2019    | **Goethe University**, part-time employed at the Chair of Development Economics |
 | 2013 -- 2014    | **European Bank for Reconstruction & Development**, research analyst, Chief Economist's Office |
 | 2012 -- 2013    | **University of Konstanz**, student research assistant to H Ursprung and C Alós-Ferrer |
 | 2010            | **KfW Development Bank**, trainee, Country Office Ghana |
