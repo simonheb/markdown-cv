@@ -5,7 +5,6 @@ colorlinks: true
 urlcolor: DarkBlue
 output:
   pdf_document:
-    keep_tex: yes
     toc: no
     includes:
       in_header: preamble.tex
