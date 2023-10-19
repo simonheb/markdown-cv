@@ -24,7 +24,7 @@ cites<-scholar::get_publications("E_zs3XIAAAAJ")[c("cites","pubid", "title")]
 | [simon.hess@univie.ac.at](mailto:simon.hess@univie.ac.at)     |   [hessS.org](https://hesss.org) |
 
 #  Research and employment history
-||| <!-- headerless table; the nuber of "-" in the next line specifies how wide the first and second column are-->
+||| <!-- headerless table; the number of "-" in the next line specifies how wide the first and second column are-->
 |-|--------|
 | from 2024       | **Vienna University of Economics and Business**, assistant professor (tenure track) |
 | 2022 -- 2024    | **University of Vienna**, assistant professor (non-tenured) |

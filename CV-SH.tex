@@ -1,0 +1,355 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  a4paper,10pt]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage[left=1.5cm,right=1.5cm,top=2cm,bottom=1.1cm]{geometry}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+%remove (empty) table headers and spacing
+\let\oldlongtable\longtable\let\endoldlongtable\endlongtable
+\renewenvironment{longtable}{\vspace{-0.5\baselineskip}\oldlongtable}{\endoldlongtable\vspace{-0.5\baselineskip}}
+\setlength{\LTpre}{0pt}
+\setlength{\LTpost}{0pt}
+%remove table rules
+\renewcommand\bottomrule[1]{}\renewcommand\toprule[1]{}
+%small caps titles
+\usepackage{titlesec}
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{3pt}{3pt}
+% make more compact
+\setlength\parindent{0pt}
+\pagenumbering{gobble}
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={Simon Heß},
+  colorlinks=true,
+  linkcolor={Maroon},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={DarkBlue},
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Simon Heß}
+\usepackage{etoolbox}
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+\subtitle{Department of Economics, University of Vienna}
+\author{}
+\date{\vspace{-2.5em}}
+
+\begin{document}
+\maketitle
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}@{}}
+\toprule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Oskar-Morgenstern-Platz 1, 1090 Vienna, Austria & +43 678 780 2437 \\
+\href{mailto:simon.hess@univie.ac.at}{\nolinkurl{simon.hess@univie.ac.at}}
+& \href{https://hesss.org}{hessS.org} \\
+\end{longtable}
+
+\hypertarget{research-and-employment-history}{%
+\section{Research and employment
+history}\label{research-and-employment-history}}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.1111}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.8889}}@{}}
+\toprule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+from 2024 & \textbf{Vienna University of Economics and Business},
+assistant professor (tenure track) \\
+2022 -- 2024 & \textbf{University of Vienna}, assistant professor
+(non-tenured) \\
+2020 -- 2022 & \textbf{Goethe University}, postdoc, Chair of Development
+Economics, M Schündeln \\
+2018 & \textbf{Stanford University}, visiting researcher at SIEPR,
+invited by M Fafchamps \\
+2014 -- 2019 & \textbf{Goethe University}, part-time employed within at
+the Chair of Development Economics \\
+2013 -- 2014 & \textbf{European Bank for Reconstruction \& Development},
+research analyst, Chief Economist's Office \\
+2012 -- 2013 & \textbf{University of Konstanz}, student research
+assistant to H Ursprung and C Alós-Ferrer \\
+2010 & \textbf{KfW Development Bank}, trainee, Country Office Ghana \\
+\end{longtable}
+
+\hypertarget{degrees}{%
+\section{Degrees}\label{degrees}}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.1111}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.8889}}@{}}
+\toprule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+2020 & \textbf{Goethe University}, PhD in Economics (Summa Cum Laude),
+\emph{Research prize for scientific excellence and practical relevance}
+by the German Economic Association and the KfW-Development Bank) \\
+2013 & \textbf{University of Konstanz}, MSc in Economics (Distinction,
+1\textsuperscript{st} in class), \emph{VEUK-Award for the best graduate
+in economics at the University of Konstanz} \\
+2011 & \textbf{University of Konstanz}, BSc in Economics (Excellent,
+2\textsuperscript{nd} in class), one semester at the American University
+in Cairo \\
+\end{longtable}
+
+\hypertarget{publications}{%
+\section{Publications}\label{publications}}
+
+\emph{Shared e-scooter services and road safety: Evidence from six
+European countries} (with C Cloud and J Kasinger) \\
+\textbf{European Economic Review},
+\href{http://doi.org/10.1016/j.euroecorev.2023.104593}{doi.org/10.1016/j.euroecorev.2023.104593}
+
+\emph{Environmental Effects of Development Programs: Experimental
+Evidence from West African Dryland Forests} (with M Schündeln and D
+Jaimovich) \\
+\textbf{Journal of Development Economics}, vol.~153: 102737, 2021,
+\href{https://doi.org/10.1016/j.jdeveco.2021.102737}{doi.org/10.1016/j.jdeveco.2021.102737}
+
+\emph{Development Projects and Economic Networks: Lessons From Rural
+Gambia} (with M Schündeln and D Jaimovich) \\
+\textbf{The Review of Economic Studies}, vol.~88(3): 1347--1384, 2021,
+\href{https://doi.org/10.1093/restud/rdaa033}{doi.org/10.1093/restud/rdaa033}
+
+\emph{Randomization Inference with Stata: A Guide and Software}
+\href{https://scholar.google.de/citations?user=E_zs3XIAAAAJ}{296
+citations} \\
+\textbf{Stata Journal}, vol.~17(3): 630--651, 2017,
+\href{https://doi.org/10.1177/1536867X1701700306}{doi.org/10.1177/1536867X1701700306}
+
+\hypertarget{working-papers}{%
+\section{Working Papers}\label{working-papers}}
+
+\emph{Political Influence through Kinship Networks: Evidence from the
+Universe of Registered Voters in Nepal}\\
+with P Pathak and M Schündeln (Goethe University).
+
+\emph{Causal evidence that herpes zoster vaccination reduces the
+incidence of dementia}
+\href{https://doi.org/10.1101/2023.05.23.23290253}{medRxiv
+2023.05.23.23290253}\\
+with M Eyting (Mainz and Stanford) and M Xie (Heidelberg and Stanford),
+P Geldsetzer (Stanford).
+
+\emph{The effect of herpes zoster vaccination on the occurrence of
+deaths due to dementia in England and Wales}
+\href{https://doi.org/10.1101/2023.09.08.23295225}{medRxiv
+2023.09.08.23295225}\\
+wtih F Michalik (Heidelberg and Stanford), M Eyting (Mainz and Stanford)
+and M Xie (Heidelberg and Stanford), S Chung (Stanford), P Geldsetzer
+(Stanford).
+
+\emph{Altruism and the Topology of Transfer Networks},
+\href{https://hesss.org/Gambia_Topology.pdf}{CEPR Discussion Paper
+16561}\\
+with M Fafchamps, (Stanford).
+
+\hypertarget{work-in-progress}{%
+\section{Work in progress}\label{work-in-progress}}
+
+\emph{Social Networks and the Effect of Political Debates in Young
+Democracies: Evidence from Gambia}\\
+with J Detemple, and M Schündeln (both Goethe University Frankfurt) and
+H Jawara (University of The Gambia)
+
+\emph{German Colonialism} with SO Becker, N Jahangirli, and R
+Ramachandran (Monash University)
+
+\hypertarget{teaching}{%
+\section{Teaching}\label{teaching}}
+
+\hypertarget{as-course-instructor}{%
+\subsection{As course instructor}\label{as-course-instructor}}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.1111}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.8889}}@{}}
+\toprule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+2022, 2023 & \textbf{Introductory Econometrics}, undergraduate lecture
+with \textasciitilde100 students, University of Vienna \\
+Sept 2023 & \textbf{Causal inference}, 3-day mini course, Monash
+University Malaysia \\
+Spring 2023 & \textbf{Causal inference}, undergraduate course with 38
+students, University of Vienna \\
+Spring 2022 & \textbf{Development Economics: Microeconomic Aspects of
+Development}, MSc lecture, Goethe University; co-taught with M
+Schündeln \\
+Fall 2021 & \textbf{Microeconometric Methods and Applications}, MSc
+seminar, Goethe University \\
+2020, 2021 & \textbf{Empirical Development Economics} undergraduate
+lecture, Goethe University; co-taught with M Schündeln \\
+\end{longtable}
+
+\hypertarget{as-teaching-assistant}{%
+\subsection{As teaching assistant}\label{as-teaching-assistant}}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.1111}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.8889}}@{}}
+\toprule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+2014 -- 2020 & \textbf{Development Economics II, Development Economics
+III, Evaluation of Development Policy}, MSc courses, Goethe
+University \\
+2008 -- 2013 & \textbf{Microeconomics II -- Game Theory}
+(undergraduate), \textbf{Advanced Microeconomics I} (MSc),
+\textbf{Mathematics for Economists I} (undergraduate),
+\textbf{Mathematics for Economists II} (undergraduate), University of
+Konstanz \\
+\end{longtable}
+
+\hypertarget{awards-grants}{%
+\section{Awards \& grants}\label{awards-grants}}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.1111}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.8889}}@{}}
+\toprule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+2023 & Small research grant, University of Vienna € 2,000 \\
+2021 & Dissertation award by the KfW Development Bank and the
+Development Group of the German Economic Association, € 5,000 \\
+2020 & Sturm \& Drang Prize 2020 for the best publication by a young
+researcher of the Faculty of Economics and Business at Goethe
+University, € 1,500 \\
+2019 -- 2022 & Joachim Herz fellow for interdisciplinary economics, €
+12,500 \\
+2013 -- 2014 & Carlo Schmid fellow for placements in international
+organizations \\
+2013 & VEUK-Award for the best graduate in economics at the University
+of Konstanz \\
+2011 -- 2013 & Scholarships from the Studienstiftung des Deutschen
+Volkes (German National Academic Foundation) and the DAAD (German
+Academic Exchange Service) \\
+\end{longtable}
+
+\hypertarget{porfessional-activities-and-memberships}{%
+\section{Porfessional activities and
+memberships}\label{porfessional-activities-and-memberships}}
+
+\hypertarget{presentations-and-invited-seminars}{%
+\subsection{Presentations and invited
+seminars}\label{presentations-and-invited-seminars}}
+
+\textbf{2024}: Central European University (planned); \textbf{2023}:
+Vienna University of Economics and Business; Standing Committee on
+Development Economics of the German Economic Association; University of
+Passau; TU Dresden (planned); \textbf{2022}: Trinity College Dublin
+(scheduled); University of Vienna; HEC Lausanne; DIME/Worldbank; Annual
+Conference of the Research Group on Development Economics of the German
+Economic Association; \textbf{2021}: Theory Seminar at Aix Marseille
+School of Economics; \textbf{2020}: 12\textsuperscript{th} World
+Congress of the Econometric Society; Annual Meeting of the European
+Economic Association; \textbf{2019 and before}: CSAE Conference 2019 at
+Oxford University; European Bank for Reconstruction and Development
+Research Seminar; Workshop on Geodata and Economics 2018 by the TU
+Braunschweig and the Centre for European Economic Research (ZEW);
+70\textsuperscript{th} European Meeting of the Econometric Society;
+Annual Conference of the Research Group on Development Economics of the
+German Economic Association 2016
+
+\hypertarget{scientific-refereeing}{%
+\subsection{Scientific refereeing}\label{scientific-refereeing}}
+
+Journal of Development Economics, American Journal of Agricultural
+Economics, Journal of Environmental Economics and Management, Economic
+Development and Cultural Change, Land Use Policy, Party Politics
+
+\hypertarget{affiliations-and-memberships}{%
+\subsection{Affiliations and
+memberships}\label{affiliations-and-memberships}}
+
+\href{https://www.socialpolitik.de/}{German Economic Association}
+(Verein für Socialpolitik);
+\href{http://entwicklungsoekonomischer-ausschuss.de/?lang=en}{Research
+Committee on Development Economics of the German Economic Association}
+
+--\textgreater{}
+
+\vfill\hfill\tiny last updated: \today
+
+\end{document}
