@@ -117,7 +117,7 @@ cites<-scholar::get_publications("E_zs3XIAAAAJ")[c("cites","pubid", "title")]
 | 2011 -- 2013  | Scholarships from the Studienstiftung des Deutschen Volkes (German National Academic Foundation) and the DAAD (German Academic Exchange Service)
 
 
-# Porfessional activities and memberships
+# Professional activities and memberships
 ## Presentations and invited seminars
 **2024**: Central European University (planned);
 **2023**: Vienna University of Economics and Business; Standing Committee on Development Economics of the German Economic Association; University of Passau; TU Dresden (planned);
