@@ -9,8 +9,8 @@ output:
     toc: no
     includes:
       in_header: preamble.tex
-geometry: left=1.5cm,right=1.5cm,top=2cm,bottom=1.1cm
-classoption: a4paper,10pt
+geometry: left = 1.5cm, right = 1.5cm, top = 1.8cm, bottom = 1cm
+classoption: a4paper, 10pt
 ---
 
 ```{r setup, include=FALSE}
@@ -72,16 +72,17 @@ cites<-scholar::get_publications("E_zs3XIAAAAJ")[c("cites","pubid", "title")]
   with M Eyting (Mainz and Stanford) and M Xie (Heidelberg and Stanford), P Geldsetzer (Stanford).
 
 *The effect of herpes zoster vaccination on the occurrence of deaths due to dementia in England and Wales* [medRxiv 2023.09.08.23295225 ](https://doi.org/10.1101/2023.09.08.23295225)  
- wtih F Michalik (Heidelberg and Stanford), M Eyting (Mainz and Stanford) and M Xie (Heidelberg and Stanford), S Chung (Stanford), P Geldsetzer (Stanford).
+  wtih F Michalik (Heidelberg and Stanford), M Eyting (Mainz and Stanford) and M Xie (Heidelberg and Stanford), S Chung (Stanford), P Geldsetzer (Stanford).
 
 *Altruism and the Topology of Transfer Networks*,  [CEPR Discussion Paper 16561](https://hesss.org/Gambia_Topology.pdf)  
   with M Fafchamps, (Stanford).
 
 # Work in progress
 *Social Networks and the Effect of Political Debates in Young Democracies: Evidence from Gambia*  
-with J Detemple, and M Schündeln (both Goethe University Frankfurt) and H Jawara (University of The Gambia)
+  with J Detemple, and M Schündeln (both Goethe University Frankfurt) and H Jawara (University of The Gambia)
 
-*German Colonialism* with SO Becker, N Jahangirli, and R Ramachandran (Monash University)
+*German Colonialism*  
+  with SO Becker, N Jahangirli, and R Ramachandran (Monash University)
 
 
 
