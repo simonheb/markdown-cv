@@ -1,0 +1,14 @@
+%remove (empty) table headers and spacing
+\let\oldlongtable\longtable\let\endoldlongtable\endlongtable
+\renewenvironment{longtable}{\vspace{-0.5\baselineskip}\oldlongtable}{\endoldlongtable\vspace{-0.5\baselineskip}}
+\setlength{\LTpre}{0pt}
+\setlength{\LTpost}{0pt}
+%remove table rules
+\renewcommand\bottomrule[1]{}\renewcommand\toprule[1]{}
+%small caps titles
+\usepackage{titlesec}
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{3pt}{3pt}
+% make more compact
+\setlength\parindent{0pt}
+\pagenumbering{gobble}

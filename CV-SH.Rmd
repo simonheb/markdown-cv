@@ -1,0 +1,146 @@
+---
+title: "Simon Heß"
+subtitle: "Department of Economics, University of Vienna"
+colorlinks: true
+urlcolor: DarkBlue
+output:
+  pdf_document:
+    keep_tex: yes
+    toc: no
+    includes:
+      in_header: preamble.tex
+geometry: left=1.5cm,right=1.5cm,top=2cm,bottom=1.1cm
+classoption: a4paper,10pt
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+cites<-scholar::get_publications("E_zs3XIAAAAJ")[c("cites","pubid", "title")]
+```
+
+||| <!-- headerless table for address-->
+|:--|--:|
+| Oskar-Morgenstern-Platz 1, 1090 Vienna, Austria               |                 +43 678 780 2437 |
+| [simon.hess@univie.ac.at](mailto:simon.hess@univie.ac.at)     |   [hessS.org](https://hesss.org) |
+
+#  Research and employment history
+||| <!-- headerless table; the nuber of "-" in the next line specifies how wide the first and second column are-->
+|-|--------|
+| from 2024       | **Vienna University of Economics and Business**, assistant professor (tenure track) |
+| 2022 -- 2024    | **University of Vienna**, assistant professor (non-tenured) |
+| 2020 -- 2022    | **Goethe University**, postdoc, Chair of Development Economics, M Schündeln |
+| 2018            | **Stanford University**, visiting researcher at SIEPR, invited by M Fafchamps |
+| 2014 -- 2019    | **Goethe University**, part-time employed within at the Chair of Development Economics |
+| 2013 -- 2014    | **European Bank for Reconstruction & Development**, research analyst, Chief Economist's Office |
+| 2012 -- 2013    | **University of Konstanz**, student research assistant to H Ursprung and C Alós-Ferrer |
+| 2010            | **KfW Development Bank**, trainee, Country Office Ghana |
+
+# Degrees
+||| <!-- headerless table; the number of "-" in the next line specifies how wide the first and second column are-->
+|-|--------|
+| 2020            | **Goethe University**, PhD in Economics (Summa Cum Laude), *Research prize for scientific excellence and practical relevance* by the German Economic Association and the KfW-Development Bank) |
+| 2013            | **University of Konstanz**, MSc in Economics (Distinction,  1^st^  in class), *VEUK-Award for the best graduate in economics at the University of Konstanz*|
+| 2011            | **University of Konstanz**, BSc in Economics (Excellent, 2^nd^ in class), one semester at the American University in Cairo|
+
+# Publications
+*Shared e-scooter services and road safety: Evidence from six European countries*
+  (with C Cloud and J Kasinger)  <!-- two empty spaces at the end of a line ensure a whitespace -->  
+  **European Economic Review**, 
+	[doi.org/10.1016/j.euroecorev.2023.104593](http://doi.org/10.1016/j.euroecorev.2023.104593)
+	
+*Environmental Effects of Development Programs: Experimental Evidence from West African Dryland Forests* 
+  (with M Schündeln and D Jaimovich) <!-- two empty spaces at the end of a line ensure a whitespace -->   
+  **Journal of Development Economics**, vol. 153: 102737, 2021,
+  [doi.org/10.1016/j.jdeveco.2021.102737](https://doi.org/10.1016/j.jdeveco.2021.102737)
+
+*Development Projects and Economic Networks: Lessons From Rural Gambia*
+  (with M Schündeln and D Jaimovich)  <!-- two empty spaces at the end of a line ensure a whitespace -->  
+  **The Review of Economic Studies**, vol. 88(3): 1347--1384, 2021,
+  [doi.org/10.1093/restud/rdaa033](https://doi.org/10.1093/restud/rdaa033)
+
+*Randomization Inference with Stata: A Guide and Software* [`r cites$cites[which(cites$title=="Randomization inference with Stata: A guide and software")]` citations](https://scholar.google.de/citations?user=E_zs3XIAAAAJ)   <!-- two empty spaces at the end of a line ensure a whitespace -->  
+  **Stata Journal**, vol. 17(3): 630--651, 2017,
+	[doi.org/10.1177/1536867X1701700306](https://doi.org/10.1177/1536867X1701700306)
+	
+
+
+# Working Papers
+*Political Influence through Kinship Networks: Evidence from the Universe of Registered Voters in Nepal*  
+  with P Pathak and M Schündeln (Goethe University).
+
+*Causal evidence that herpes zoster vaccination reduces the incidence of dementia* [medRxiv 2023.05.23.23290253](https://doi.org/10.1101/2023.05.23.23290253)  
+  with M Eyting (Mainz and Stanford) and M Xie (Heidelberg and Stanford), P Geldsetzer (Stanford).
+
+*The effect of herpes zoster vaccination on the occurrence of deaths due to dementia in England and Wales* [medRxiv 2023.09.08.23295225 ](https://doi.org/10.1101/2023.09.08.23295225)  
+ wtih F Michalik (Heidelberg and Stanford), M Eyting (Mainz and Stanford) and M Xie (Heidelberg and Stanford), S Chung (Stanford), P Geldsetzer (Stanford).
+
+*Altruism and the Topology of Transfer Networks*,  [CEPR Discussion Paper 16561](https://hesss.org/Gambia_Topology.pdf)  
+  with M Fafchamps, (Stanford).
+
+# Work in progress
+*Social Networks and the Effect of Political Debates in Young Democracies: Evidence from Gambia*  
+with J Detemple, and M Schündeln (both Goethe University Frankfurt) and H Jawara (University of The Gambia)
+
+*German Colonialism* with SO Becker, N Jahangirli, and R Ramachandran (Monash University)
+
+
+
+# Teaching
+## As course instructor
+
+||| <!-- headerless table; the number of "-" in the next line specifies how wide the first and second column are-->
+|-|--------|
+| 2022, 2023    | **Introductory Econometrics**, undergraduate lecture with ~100 students, University of Vienna |
+| Sept 2023     | **Causal inference**, 3-day mini course, Monash University Malaysia |
+| Spring 2023   | **Causal inference**, undergraduate course with 38 students, University of Vienna |
+| Spring 2022   | **Development Economics: Microeconomic Aspects of Development**, MSc lecture, Goethe University; co-taught with M Schündeln |
+| Fall 2021     | **Microeconometric Methods and Applications**, MSc seminar, Goethe University |
+| 2020, 2021    | **Empirical Development Economics** undergraduate lecture, Goethe University; co-taught with M Schündeln |
+
+## As teaching assistant
+
+||| <!-- headerless table; the number of "-" in the next line specifies how wide the first and second column are-->
+|-|--------|
+| 2014 -- 2020  | **Development Economics II, Development Economics III, Evaluation of Development Policy**, MSc courses, Goethe University |
+| 2008 -- 2013  | **Microeconomics II -- Game Theory** (undergraduate), **Advanced Microeconomics I** (MSc), **Mathematics for Economists I**  (undergraduate), **Mathematics for Economists II**  (undergraduate), University of Konstanz |
+
+# Awards & grants
+
+||| <!-- headerless table; the number of "-" in the next line specifies how wide the first and second column are-->
+|-|--------|
+| 2023          | Small research grant, University of Vienna € 2,000 |
+| 2021          | Dissertation award  by the KfW Development Bank and the Development Group of the German Economic Association, € 5,000 |
+| 2020          | Sturm & Drang Prize 2020 for the best publication by a young researcher of the Faculty of Economics and Business at Goethe University, € 1,500 |
+| 2019 -- 2022  | Joachim Herz fellow for interdisciplinary economics, € 12,500 |
+| 2013 -- 2014  | Carlo Schmid fellow for placements in international organizations |
+| 2013	        | VEUK-Award for the best graduate in economics at the University of Konstanz |
+| 2011 -- 2013  | Scholarships from the Studienstiftung des Deutschen Volkes (German National Academic Foundation) and the DAAD (German Academic Exchange Service)
+
+
+# Porfessional activities and memberships
+## Presentations and invited seminars
+**2024**: Central European University (planned);
+**2023**: Vienna University of Economics and Business; Standing Committee on Development Economics of the German Economic Association; University of Passau; TU Dresden (planned);
+**2022**: Trinity College Dublin (scheduled); University of Vienna; HEC Lausanne; DIME/Worldbank; Annual Conference of the Research Group on Development Economics of the German Economic Association;
+**2021**: Theory Seminar at Aix Marseille School of Economics;
+**2020**: 12^th^ World Congress of the Econometric Society; Annual Meeting of the European Economic Association; 
+**2019 and before**: CSAE Conference 2019 at Oxford University;  European Bank for Reconstruction and Development Research Seminar; 
+Workshop on Geodata and Economics 2018 by the TU Braunschweig and the Centre for European Economic Research (ZEW);
+70^th^ European Meeting of the Econometric Society;
+Annual Conference of the Research Group on Development Economics of the German Economic Association 2016
+	
+## Scientific refereeing
+Journal of Development Economics, American Journal of Agricultural Economics, Journal of Environmental Economics and Management, Economic Development and Cultural Change, Land Use Policy, Party Politics
+
+## Affiliations and memberships
+[German Economic Association](https://www.socialpolitik.de/) (Verein für Socialpolitik);
+[Research Committee on Development Economics of the German Economic Association](http://entwicklungsoekonomischer-ausschuss.de/?lang=en)
+
+<!-- # References -->
+<!-- |||| <!-- headerless table; the number of "-" in the next line specifies how wide the first and second columns are--> -->
+<!-- |--|--|--| -->
+<!-- | Professor Matthias Schündeln, PhD             | Professor Marcel Fafchamps, PhD                 | Professor Daniel Gutknecht, PhD | -->
+<!-- | Goethe University Frankfurt                   | Stanford University                             | Goethe University  Frankfurt | -->
+<!-- | [schuendeln@wiwi.uni-frankfurt.de](mailto:schuendeln@wiwi.uni-frankfurt.de), +49-69-798-34798 | [fafchamp@stanford.edu](mailto:fafchamp@stanford.edu), +1-650-497-4602 | [gutknecht@wiwi.uni-frankfurt.de](mailto:gutknecht@wiwi.uni-frankfurt.de), +49-69-798-34766 | -->
+
+\vfill\hfill\tiny last updated: \today
