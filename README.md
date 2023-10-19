@@ -6,3 +6,5 @@ result: [CV-SH.pdf](CV-SH.pdf)
 
 source:  [CV-SH.tex](CV-SH.tex)
 ![](CV-SH.pdf)
+
+the source also contains a "references" section that is commented out in my current version.
