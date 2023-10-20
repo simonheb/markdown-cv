@@ -8,7 +8,7 @@ output:
     toc: no
     includes:
       in_header: preamble.tex
-geometry: left = 1.5cm, right = 1.5cm, top = 1.8cm, bottom = 1cm
+geometry: left = 1.4cm, right = 1.4cm, top = 1.9cm, bottom = 1.1cm
 classoption: a4paper, 10pt
 ---
 
@@ -22,24 +22,24 @@ cites<-scholar::get_publications("E_zs3XIAAAAJ")[c("cites","pubid", "title")]
 | Oskar-Morgenstern-Platz 1, 1090 Vienna, Austria               |                 +43 678 780 2437 |
 | [simon.hess@univie.ac.at](mailto:simon.hess@univie.ac.at)     |   [hessS.org](https://hesss.org) |
 
-#  Research and employment history
+#  Positions
 ||| <!-- headerless table; the number of "-" in the next line specifies how wide the first and second column are-->
-|-|--------|
+|-|---------|
 | from 2024       | **Vienna University of Economics and Business**, assistant professor (tenure track) |
 | 2022 -- 2024    | **University of Vienna**, assistant professor (non-tenured) |
 | 2020 -- 2022    | **Goethe University**, postdoc, Chair of Development Economics, M Schündeln |
 | 2018            | **Stanford University**, visiting researcher at SIEPR, invited by M Fafchamps |
 | 2014 -- 2019    | **Goethe University**, part-time employed at the Chair of Development Economics |
-| 2013 -- 2014    | **European Bank for Reconstruction & Development**, research analyst, Chief Economist's Office |
+| 2013 -- 2014    | **European Bank for Reconstruction & Development**,\setbox0\hbox{i} \spaceskip=\wd0 plus .15em minus .5em research analyst, Office of the Chief Economist |
 | 2012 -- 2013    | **University of Konstanz**, student research assistant to H Ursprung and C Alós-Ferrer |
-| 2010            | **KfW Development Bank**, trainee, Country Office Ghana |
+<!-- | 2010            | **KfW Development Bank**, trainee, Country Office Ghana | -->
 
 # Degrees
 ||| <!-- headerless table; the number of "-" in the next line specifies how wide the first and second column are-->
-|-|--------|
-| 2020            | **Goethe University**, PhD in Economics (Summa Cum Laude), *Research prize for scientific excellence and practical relevance* by the German Economic Association and the KfW-Development Bank) |
-| 2013            | **University of Konstanz**, MSc in Economics (Distinction,  1^st^  in class), *VEUK-Award for the best graduate in economics at the University of Konstanz*|
-| 2011            | **University of Konstanz**, BSc in Economics (Excellent, 2^nd^ in class), one semester at the American University in Cairo|
+|-|---------|
+| 2020            | **Goethe University**, PhD in Economics (summa cum laude), *Prize for scientific excellence and practical relevance* by the German Economic Association's Committee on Development Economics and the KfW |
+| 2013            | **University of Konstanz**, MSc in Economics|
+| 2011            | **University of Konstanz**, BSc in Economics, visiting the American University in Cairo during 2011 |
 
 # Publications
 *Shared e-scooter services and road safety: Evidence from six European countries*
@@ -89,7 +89,7 @@ cites<-scholar::get_publications("E_zs3XIAAAAJ")[c("cites","pubid", "title")]
 ## As course instructor
 
 ||| <!-- headerless table; the number of "-" in the next line specifies how wide the first and second column are-->
-|-|--------|
+|-|---------|
 | 2022, 2023    | **Introductory Econometrics**, undergraduate lecture with ~100 students, University of Vienna |
 | Sept 2023     | **Causal inference**, 3-day mini course, Monash University Malaysia |
 | Spring 2023   | **Causal inference**, undergraduate course with 38 students, University of Vienna |
@@ -100,14 +100,14 @@ cites<-scholar::get_publications("E_zs3XIAAAAJ")[c("cites","pubid", "title")]
 ## As teaching assistant
 
 ||| <!-- headerless table; the number of "-" in the next line specifies how wide the first and second column are-->
-|-|--------|
+|-|---------|
 | 2014 -- 2020  | **Development Economics II, Development Economics III, Evaluation of Development Policy**, MSc courses, Goethe University |
 | 2008 -- 2013  | **Microeconomics II -- Game Theory** (undergraduate), **Advanced Microeconomics I** (MSc), **Mathematics for Economists I**  (undergraduate), **Mathematics for Economists II**  (undergraduate), University of Konstanz |
 
 # Awards & grants
 
 ||| <!-- headerless table; the number of "-" in the next line specifies how wide the first and second column are-->
-|-|--------|
+|-|---------|
 | 2023          | Small research grant, University of Vienna € 2,000 |
 | 2021          | Dissertation award  by the KfW Development Bank and the Development Group of the German Economic Association, € 5,000 |
 | 2020          | Sturm & Drang Prize 2020 for the best publication by a young researcher of the Faculty of Economics and Business at Goethe University, € 1,500 |
@@ -121,7 +121,7 @@ cites<-scholar::get_publications("E_zs3XIAAAAJ")[c("cites","pubid", "title")]
 ## Presentations and invited seminars
 **2024**: Central European University (planned);
 **2023**: Vienna University of Economics and Business; Standing Committee on Development Economics of the German Economic Association; University of Passau; TU Dresden (planned);
-**2022**: Trinity College Dublin (scheduled); University of Vienna; HEC Lausanne; DIME/Worldbank; Annual Conference of the Research Group on Development Economics of the German Economic Association;
+**2022**: Trinity College Dublin; University of Vienna; HEC Lausanne; DIME/Worldbank; Annual Conference of the Research Group on Development Economics of the German Economic Association;
 **2021**: Theory Seminar at Aix Marseille School of Economics;
 **2020**: 12^th^ World Congress of the Econometric Society; Annual Meeting of the European Economic Association; 
 **2019 and before**: CSAE Conference 2019 at Oxford University;  European Bank for Reconstruction and Development Research Seminar; 
@@ -137,7 +137,7 @@ Journal of Development Economics, American Journal of Agricultural Economics, Jo
 [Research Committee on Development Economics of the German Economic Association](http://entwicklungsoekonomischer-ausschuss.de/?lang=en)
 
 <!-- # References -->
-<!-- |||| <!-- headerless table; the number of "-" in the next line specifies how wide the first and second columns are--> -->
+<!-- |||| <!-- headerless table; the number of "-" in the next line specifies how wide the first and second columns are-->
 <!-- |--|--|--| -->
 <!-- | Professor Matthias Schündeln, PhD             | Professor Marcel Fafchamps, PhD                 | Professor Daniel Gutknecht, PhD | -->
 <!-- | Goethe University Frankfurt                   | Stanford University                             | Goethe University  Frankfurt | -->
